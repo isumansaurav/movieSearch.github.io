@@ -16,7 +16,7 @@ const showMovies = (data) => {
     moiveBox.innerHTML = "";
     data.results.forEach(
         (result) => {
-            const imagePath = result.poster_path === null ? "https://user-images.githubusercontent.com/24848110/33519396-7e56363c-d79d-11e7-969b-09782f5ccbab.png" : IMGPATH + result.poster_path;
+            const imagePath = result.poster_path === null ? "https://www.thermaxglobal.com/wp-content/uploads/2020/05/image-not-found-300x169.jpg" : IMGPATH + result.poster_path;
             // const box = `
             // <div class="box">
             //     <img src="${IMGPATH+result}" alt="" />
